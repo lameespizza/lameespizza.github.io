@@ -224,6 +224,9 @@ export const pizzas = [
         "size": ["Small", "Medium", "Large", "X-Large"],
         "price": [12.99, 19.99, 23.99, 26.99]
     },
+];
+
+export const pizzas_extras = [
     {
         "name": "Extra Cheese",
         "description": "",
@@ -236,19 +239,16 @@ export const pizzas = [
         "size": ["Small", "Medium", "Large", "X-Large"],
         "price": [0.99, 1.99, 2.99, 3.99]
     },
-];
-
-export const pizzas_extras = [
     {
         "name": "Garlic / Ranch / Hot Sauce",
         "description": "",
-        "price": [0.75]
+        "price": [0.99]
     },
     {
         "name": "Toppings",
         "description": "Pepperon, Ham, Bacon, Donair, Beef, Italian Sausage, Ground Beef, Chicken, Mushrooms, Onions, Green Peppers, Hot Peppers, Green Olives, Black Olives, Tomatoes, Pineapples",
         "price": [],
-    }
+    },
 ];
 
 export const subs = [
@@ -372,7 +372,7 @@ export const platters = [
         "name": "Hamburger Platter",
         "description": "Add bacon or cheese for $0.99",
         "size": [],
-        "price": [6.99]
+        "price": [9.99]
     },
     {
         "name": "Hot Chicken / Hot Hamburger Sandwich Platter",
@@ -431,13 +431,13 @@ export const chicken = [
         "name": "Hungry Man Box",
         "description": "Comes with fries & gravy",
         "size": ["2 PCS"],
-        "price": [6.99]
+        "price": [10.99]
     },
     {
         "name": "Thrift Box",
         "description": "",
         "size": ["9 PCS"],
-        "price": [10.99]
+        "price": [19.99]
     },
     {
         "name": "Picnic Box",

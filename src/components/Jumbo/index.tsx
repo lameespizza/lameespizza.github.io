@@ -1,15 +1,7 @@
 import React from "react";
 
-import {
-	Jumbotron,
-	Col,
-	Row,
-	Container,
-	Carousel,
-	Button,
-	Card,
-	Badge,
-} from "react-bootstrap";
+import { Col, Row, Container, Carousel } from "react-bootstrap";
+
 import { ItemCard } from "../ItemCard";
 
 interface Special {
@@ -77,13 +69,22 @@ export const Jumbo: React.FC<JumboProps> = (props) => {
 				className="light-blue-bg dark-blue-font text-center thick"
 			>
 				<Row>
-					<Col md={6}>🏠 6537 Bank Street, ON</Col>
+					<Col md={6}>
+						<a
+							className="dark-blue-font"
+							style={{ textDecoration: "none" }}
+							href="https://goo.gl/maps/3upZjH7MnZ5X7SEL7"
+							target="_blank"
+						>
+							🏠 6537 Bank Street, ON
+						</a>
+					</Col>
 
 					<Col md={6}>📞 (613) 821-5665</Col>
 				</Row>
 			</Container>
 			<Container style={{ marginTop: "25px", marginBottom: "25px" }}>
-				<h4 className="bold orange-font">🍕 Specials</h4>
+				<h4 className="thick orange-font">🍕 Specials</h4>
 			</Container>
 			<Container
 				style={{ padding: "80px", borderRadius: "5px", marginBottom: "15px" }}

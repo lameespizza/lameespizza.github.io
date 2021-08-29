@@ -76,7 +76,7 @@ export const CategoryList: React.FC<{}> = () => {
 	return (
 		<>
 			<Container style={{ marginTop: "25px", marginBottom: "25px" }}>
-				<h4 className="bold orange-font">🍽 Categories</h4>
+				<h4 className="thick orange-font">🍽 Categories</h4>
 			</Container>
 			<Container>
 				<Row className="text-center">

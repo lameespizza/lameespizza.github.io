@@ -3,8 +3,10 @@ import React from "react";
 import Logo from "../../img/logo.png";
 
 import { Link } from "react-router-dom";
-
 import { Nav, Navbar } from "react-bootstrap";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 export const NavigationBar: React.FC<{}> = () => {
 	return (
@@ -25,15 +27,11 @@ export const NavigationBar: React.FC<{}> = () => {
 					/>
 				</Link>
 			</Navbar.Brand>
-			{/* <Nav> */}
-			{/* <Nav.Link
-					href="#link"
-					style={{ paddingLeft: "100px", paddingRight: "100px" }}
-				>
-					Menu
-				</Nav.Link> */}
-			{/* <Nav.Link href="#link">About</Nav.Link> */}
-			{/* </Nav> */}
+			<Nav>
+				<Nav.Link href="https://www.facebook.com/LameesPizza/" target="_blank">
+					<FontAwesomeIcon color={"#4267B2"} icon={faFacebook} />
+				</Nav.Link>
+			</Nav>
 		</Navbar>
 	);
 };

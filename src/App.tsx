@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Redirect,
+} from "react-router-dom";
 
 import { NavigationBar } from "./components/NavigationBar";
 import { Jumbo } from "./components/Jumbo";
@@ -37,19 +42,19 @@ export const App: React.FC<{}> = () => {
 					</>
 				</Route>
 
-				<Route path="/pizzas">
+				<Route exact path="/pizzas">
 					<Menu title={"Pizzas"} menu={pizzas} extras={pizzas_extras} />
 				</Route>
 
-				<Route path="/appetizers">
+				<Route exact path="/appetizers">
 					<Menu title={"Appetizers"} menu={apps} />
 				</Route>
 
-				<Route path="/chicken">
+				<Route exact path="/chicken">
 					<Menu title={"Chicken"} menu={chicken} extras={chicken_extras} />
 				</Route>
 
-				<Route path="/subs-and-wraps">
+				<Route exact path="/subs-and-wraps">
 					<Menu
 						title={"Subs & Wraps"}
 						menu={subs.concat(wraps)}
@@ -57,17 +62,19 @@ export const App: React.FC<{}> = () => {
 					/>
 				</Route>
 
-				<Route path="/platters">
+				<Route exact path="/platters">
 					<Menu title={"Platters"} menu={platters} extras={platters_extras} />
 				</Route>
 
-				<Route path="/pasta-and-salads">
+				<Route exact path="/pasta-and-salads">
 					<Menu
 						title={"Pasta & Salads"}
 						menu={pastas.concat(salads)}
 						extras={salads_extras}
 					/>
 				</Route>
+
+				<Redirect to="/" />
 			</Switch>
 		</Router>
 	);

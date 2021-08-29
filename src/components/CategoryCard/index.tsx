@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-
 import { Card } from "react-bootstrap";
 
 interface CategoryCardProps {
@@ -15,7 +14,7 @@ export const CategoryCard: React.FC<CategoryCardProps> = (props) => {
 	const { img, link, bg, title } = props;
 
 	return (
-		<Link to={"/" + link}>
+		<Link style={{ textDecoration: "none" }} to={"/" + link}>
 			<Card
 				style={{
 					width: "100%",

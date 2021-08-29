@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Container, Row, Col } from "react-bootstrap";
 
 import { ItemCard } from "../ItemCard";
@@ -63,12 +64,10 @@ export const Menu: React.FC<MenuProps> = (props) => {
 		return list;
 	};
 
-	console.log(extras);
-	console.log(extras?.length);
 	return (
 		<>
 			<Container style={{ marginTop: "25px", marginBottom: "25px" }}>
-				<h4 className="bold orange-font">🍽 {title}</h4>
+				<h4 className="thick orange-font">🍽 {title}</h4>
 			</Container>
 			<Container>
 				<Row>{renderMenu()}</Row>
@@ -76,7 +75,7 @@ export const Menu: React.FC<MenuProps> = (props) => {
 			{!extras || (extras && extras.length === 0) ? null : (
 				<>
 					<Container style={{ marginTop: "25px", marginBottom: "25px" }}>
-						<h4 className="bold orange-font">⭐️ Extras</h4>
+						<h4 className="thick orange-font">⭐️ Extras</h4>
 					</Container>
 					<Container>
 						<Row>{renderExtras()}</Row>
