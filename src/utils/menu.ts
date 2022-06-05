@@ -32,7 +32,7 @@ export const apps = [
     {
         "name": "Breaded Deep Fried Dill Pickles",
         "description": "",
-        "size": ["10 PCS"],
+        "size": ["8 PCS"],
         "price": [10.99]
     },
     {
@@ -425,7 +425,7 @@ export const chicken = [
     {
         "name": "Hungry Man Box",
         "description": "Comes with fries & gravy",
-        "size": ["2 PCS"],
+        "size": ["4 PCS"],
         "price": [12.99]
     },
     {
