@@ -78,6 +78,7 @@ export const CategoryList: React.FC<{}> = () => {
 			<Container style={{ marginTop: "25px", marginBottom: "25px" }}>
 				<h4 className="thick orange-font">🍽 Categories</h4>
 			</Container>
+
 			<Container>
 				<Row className="text-center">
 					{renderList()}
@@ -98,13 +99,10 @@ export const CategoryList: React.FC<{}> = () => {
 								border: "none",
 							}}
 						>
-							<Card.Body>
-								<Card.Title className="text-center bold dark-blue-font">
-									⏰ Our Hours
-								</Card.Title>
+							<Card.Body style={{ backgroundColor: "white" }}>
 								<Container
-									className="dark-blue-font"
-									style={{ marginTop: "80px" }}
+									className="brown-font"
+									style={{ marginTop: "110px" }}
 								>
 									<Row>
 										<Col

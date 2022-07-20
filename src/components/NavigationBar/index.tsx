@@ -8,7 +8,13 @@ import { Nav, Navbar } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
-export const NavigationBar: React.FC<{}> = () => {
+interface NavigationBarProps {
+	setShowHiringModal: (show: boolean) => void;
+}
+
+export const NavigationBar: React.FC<NavigationBarProps> = (props) => {
+	const { setShowHiringModal } = props;
+
 	return (
 		<Navbar
 			style={{
@@ -29,7 +35,14 @@ export const NavigationBar: React.FC<{}> = () => {
 			</Navbar.Brand>
 			<Nav>
 				<Nav.Link href="https://www.facebook.com/LameesPizza/" target="_blank">
-					<FontAwesomeIcon color={"#4267B2"} icon={faFacebook} />
+					<FontAwesomeIcon color={"#3f220f"} icon={faFacebook} />
+				</Nav.Link>
+
+				<Nav.Link
+					onClick={() => setShowHiringModal(true)}
+					style={{ marginLeft: "25px" }}
+				>
+					<span className="thick orange-font">We're Hiring!</span>
 				</Nav.Link>
 			</Nav>
 		</Navbar>

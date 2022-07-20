@@ -39,7 +39,7 @@ export const ItemCard: React.FC<ItemCardProps> = (props) => {
 		for (let i = 0; i < price.length; i++) {
 			badges.push(
 				<Col md={md}>
-					<Badge className="thick white-font" variant="default">
+					<Badge className="thick brown-font" variant="default">
 						{size.length > 0 ? size[i] : null}
 						{size.length > 0 ? <br /> : null}${price[i]}
 					</Badge>
@@ -56,14 +56,22 @@ export const ItemCard: React.FC<ItemCardProps> = (props) => {
 	};
 
 	return (
-		<Card style={{ minHeight: "180px", border: "none" }}>
-			<Card.Body className="orange-bg white-font">
+		<Card
+			style={{
+				borderRadius: "0px",
+				minHeight: "180px",
+				borderStyle: "solid",
+				borderWidth: "1px",
+				borderColor: "#3f220f",
+			}}
+		>
+			<Card.Body className="brown-font">
 				<Card.Title className="thick">{title}</Card.Title>
 				<Card.Text style={{ fontSize: 12 }}>{desc}</Card.Text>
 			</Card.Body>
 			<Card.Footer
-				style={{ border: "none" }}
-				className="text-muted text-center orange-bg"
+				style={{ border: "none", backgroundColor: "transparent" }}
+				className="text-muted text-center"
 			>
 				<Row>{renderPrices()}</Row>
 			</Card.Footer>

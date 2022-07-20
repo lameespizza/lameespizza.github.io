@@ -66,12 +66,12 @@ export const Jumbo: React.FC<JumboProps> = (props) => {
 					paddingTop: "25px",
 					paddingBottom: "25px",
 				}}
-				className="light-blue-bg dark-blue-font text-center thick"
+				className="text-center thick"
 			>
 				<Row>
 					<Col md={6}>
 						<a
-							className="dark-blue-font"
+							className="brown-font"
 							style={{ textDecoration: "none" }}
 							href="https://goo.gl/maps/3upZjH7MnZ5X7SEL7"
 							target="_blank"
@@ -80,19 +80,18 @@ export const Jumbo: React.FC<JumboProps> = (props) => {
 						</a>
 					</Col>
 
-					<Col md={6}>📞 (613) 821-5665</Col>
+					<Col className="brown-font" md={6}>
+						📞 (613) 821-5665
+					</Col>
 				</Row>
 			</Container>
 			<Container style={{ marginTop: "25px", marginBottom: "25px" }}>
 				<h4 className="thick orange-font">🍕 Specials</h4>
 			</Container>
-			<Container
-				style={{ padding: "80px", borderRadius: "5px", marginBottom: "15px" }}
-				className="light-blue-bg"
-			>
+			<Container>
 				<Carousel
 					wrap
-					pause={"hover"}
+					pause={false}
 					indicators={false}
 					controls={false}
 					interval={2500}

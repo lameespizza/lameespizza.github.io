@@ -74,31 +74,31 @@ export const apps = [
     {
         "name": "Poutine (with St. Albert Cheese Curds)",
         "description": "Add chicken or bacon for $1.99",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [7.99, 10.99]
     },
     {
         "name": "Club Poutine",
         "description": "Chicken and bacon",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [9.99, 11.99]
     },
     {
         "name": "French Fries",
         "description": "",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [4.99, 7.99]
     },
     {
         "name": "Wedge Fries",
         "description": "",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [5.99, 8.99]
     },
     {
         "name": "Onion Rings",
         "description": "",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [5.99, 8.99]
     },
     {
@@ -125,97 +125,97 @@ export const pizzas = [
     {
         "name": "Plain Cheese Pizza",
         "description": "",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [8.99, 13.99, 15.99, 17.99]
     },
     {
         "name": "Lamees Garlic Cheese Strips Pizza",
         "description": "",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [7.99, 11.99, 13.99, 15.99]
     },
     {
         "name": "Combination Pizza",
         "description": "Mushrooms, pepperoni, green peppers",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [11.99, 17.99, 21.99, 24.99]
     },
     {
         "name": "Hawaiian Pizza",
         "description": "Pineapples, ham, bacon",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [11.99, 17.99, 21.99, 24.99]
     },
     {
         "name": "Canadian Pizza",
         "description": "Mushrooms, pepperoni, bacon",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [11.99, 17.99, 21.99, 24.99]
     },
     {
         "name": "Donair Pizza",
         "description": "Mushrooms, green peppers, onion, donair meat",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [12.48, 18.48, 23.48, 26.48]
     },
     {
         "name": "Spicy Garlic Chicken Pizza",
         "description": "Chicken, garlic spread, chicken seasoning, white garlic sauce",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [12.48, 18.48, 23.48, 26.48]
     },
     {
         "name": "Veggie Pizza",
         "description": "Mushrooms, onions, green peppers, green olives, tomatoes",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [12.48, 18.48, 23.48, 26.48]
     },
     {
         "name": "Pizza Lovers Pizza",
         "description": "Pepperoni, onions, green peppers, bacon, hot peppers",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [13.99, 19.99, 24.48, 27.98]
     },
     {
         "name": "Taste Of Town Pizza",
         "description": "Mushrooms, pepperoni, onions, green peppers, green olives, bacon",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [13.99, 19.99, 24.48, 27.98]
     },
     {
         "name": "Commissioner Pizza",
         "description": "Lean Tender Steak, onions, mushrooms, hot peppers, green peppers, tomatoes",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [13.99, 19.99, 24.48, 27.98]
     },
     {
         "name": "Deluxe Pizza",
         "description": "Mushrooms, pepperoni, green peppers, onions, sausage",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [13.99, 19.99, 24.48, 27.98]
     },
     {
         "name": "Meat Lovers Pizza",
         "description": "Pepperoni, bacon, ham, sausage, beef",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [13.99, 19.99, 24.48, 27.98]
     },
     {
         "name": "Buffalo Style Pizza",
         "description": "Buffalo Sauce, bacon, pepperoni, sausage, chicken",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [12.99, 17.99, 22.99, 27.98]
     },
     {
         "name": "Greek Lovers Pizza",
         "description": "Onions, green peppers, fresh pesto, tomatoes, black olives, feta cheese, garlic spread",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [11.99, 17.99, 22.99, 27.98]
     },
     {
         "name": "Supreme Pizza",
         "description": "Mushrooms, pepperoni, green peppers, olives, sausage, bacon, tomatoes, onions",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [13.99, 21.99, 25.99, 28.99]
     },
 ];
@@ -224,23 +224,25 @@ export const pizzas_extras = [
     {
         "name": "Extra Cheese",
         "description": "",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [2.99, 3.99, 4.99, 5.99]
     },
     {
         "name": "Extra Toppings",
         "description": "",
-        "size": ["Small", "Medium", "Large", "X-Large"],
+        "size": ["S", "M", "L", "XL"],
         "price": [1.49, 2.49, 3.49, 4.49]
     },
     {
         "name": "Garlic / Ranch / Hot Sauce",
         "description": "",
+        "size": [],
         "price": [0.99]
     },
     {
         "name": "Toppings",
         "description": "Pepperon, Ham, Bacon, Donair, Beef, Italian Sausage, Ground Beef, Chicken, Mushrooms, Onions, Green Peppers, Hot Peppers, Green Olives, Black Olives, Tomatoes, Pineapples",
+        "size": [],
         "price": [],
     },
 ];
@@ -357,6 +359,7 @@ export const wraps_extras = [
     {
         "name": "Cheese",
         "description": "",
+        "size": [],
         "price": [1.49]
     },
 ];
@@ -470,11 +473,13 @@ export const chicken_extras = [
     {
         "name": "Upgrade Fries To Wedge Fries",
         "description": "",
+        "size": [],
         "price": [3.99]
     },
     {
         "name": "Upgrade Fries To Onion Rings",
         "description": "",
+        "size": [],
         "price": [2.99]
     },
 ];
@@ -483,25 +488,25 @@ export const pastas = [
     {
         "name": "Spaghetti",
         "description": "",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [8.99, 10.99]
     },
     {
         "name": "Spicy Spaghetti",
         "description": "cheese, pepperoni, add meat balls for $1.25 / $1.99",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [9.99, 11.99]
     },
     {
         "name": "Lasagna",
         "description": "mushrooms, green peppers, pepperoni, cheese",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [9.99, 11.99]
     },
     {
         "name": "Chicken Parmesan",
         "description": "",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [9.99, 11.99]
     },
 ];
@@ -510,25 +515,25 @@ export const salads = [
     {
         "name": "Caesar Salad",
         "description": "romaine lettuce, croutons, caesar dressing, bacon bits",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [7.49, 9.99]
     },
     {
         "name": "Chef Salad",
         "description": "lettuce, tomatoes, green peppers, mushrooms, green olives, cucumbers, red onions",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [7.49, 9.99]
     },
     {
         "name": "Greek Salad",
         "description": "romaine lettuce, red onions, green peppers, black olives, feta cheese",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [8.49, 9.99]
     },
     {
         "name": "Super Salad",
         "description": "lettuce, tomatoes, green peppers, mushrooms, cucumbers, green olives, cheese, ham or turkey",
-        "size": ["Small", "Large"],
+        "size": ["S", "L"],
         "price": [8.99, 10.99]
     },
 ];
@@ -537,6 +542,7 @@ export const salads_extras = [
     {
         "name": "Add Chicken",
         "description": "",
+        "size": [],
         "price": [3.99]
     },
 ];
@@ -569,7 +575,7 @@ export const specials = [
     {
         "name": "Twin Pizza Special",
         "description": "2 same size pizzas with 3 toppings each",
-        "size": ["Medium", "Large", "X-Large"],
+        "size": ["M", "L", "XL"],
         "price": [26.99, 33.99, 43.99]
     },
 ];

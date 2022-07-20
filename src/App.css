@@ -1,5 +1,5 @@
 * {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Space Mono", monospace;
 }
 
 .thick {
@@ -23,7 +23,10 @@
 	color: #7e8e97 !important;
 }
 .white-font {
-	color: white !important;
+	color: #ffffff !important;
+}
+.brown-font {
+	color: #3f220f !important;
 }
 
 /* Background Colors */
