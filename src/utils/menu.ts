@@ -57,13 +57,13 @@ export const apps = [
         "name": "Chicken Fingers",
         "description": "Served with fries & plum sauce",
         "size": ["3 PCS", "6 PCS"],
-        "price": [8.99, 10.99]
+        "price": [8.99, 13.49]
     },
     {
         "name": "Fish & Chips",
         "description": "Served with fries & tartar sauce",
         "size": ["2 PCS", "3 PCS"],
-        "price": [9.99, 11.99]
+        "price": [9.99, 13.49]
     },
     {
         "name": "Garlic Bread",
@@ -87,7 +87,7 @@ export const apps = [
         "name": "French Fries",
         "description": "",
         "size": ["S", "L"],
-        "price": [4.99, 7.99]
+        "price": [4.99, 9.99]
     },
     {
         "name": "Wedge Fries",
@@ -99,7 +99,7 @@ export const apps = [
         "name": "Onion Rings",
         "description": "",
         "size": ["S", "L"],
-        "price": [5.99, 8.99]
+        "price": [5.99, 10.99]
     },
     {
         "name": "Gravy",
@@ -117,7 +117,7 @@ export const apps = [
         "name": "Wings",
         "description": "Served with sour cream + choice of BBQ, hot, medium, honey-garlic, or suicide sauce",
         "size": ["12 PCS", "24 PCS", "30 PCS"],
-        "price": [9.99, 16.99, 24.99]
+        "price": [9.99, 18.99, 24.99]
     }
 ];
 
@@ -387,7 +387,7 @@ export const platters = [
         "name": "Club Sandwich Platter",
         "description": "",
         "size": [],
-        "price": [10.99]
+        "price": [13.49]
     },
     {
         "name": "Shawarma Platter",
@@ -429,7 +429,7 @@ export const chicken = [
         "name": "Hungry Man Box",
         "description": "Comes with fries & gravy",
         "size": ["4 PCS"],
-        "price": [12.99]
+        "price": [13.49]
     },
     {
         "name": "Thrift Box",
@@ -501,13 +501,13 @@ export const pastas = [
         "name": "Lasagna",
         "description": "mushrooms, green peppers, pepperoni, cheese",
         "size": ["S", "L"],
-        "price": [9.99, 11.99]
+        "price": [9.99, 13.49]
     },
     {
         "name": "Chicken Parmesan",
         "description": "",
         "size": ["S", "L"],
-        "price": [9.99, 11.99]
+        "price": [9.99, 13.49]
     },
 ];
 
